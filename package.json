@@ -67,5 +67,10 @@
     "js-watch": "npm run js-build -- --watch",
     "start": "npm-run-all --parallel css-watch js-watch"
   },
-  "version": "0.0.4"
+  "version": "0.0.4",
+  "dependencies": {
+    "bulma-carousel": "^4.0.4",
+    "bulma-prefers-dark": "0.1.0-beta.0",
+    "bulma-social": "^2.0.0"
+  }
 }
