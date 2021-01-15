@@ -26,5 +26,13 @@ $primary-invert: $pink-invert;
 
 @import "../node_modules/bulma/bulma";
 html {
-    background-color: $green;
+  background-color: #f1f1f1;
+}
+
+.navbar {
+  background-color: $black;
+}
+
+.navbar a {
+  color: $white;
 }
