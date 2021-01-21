@@ -12006,3 +12006,6 @@ label.panel-block {
 @media (prefers-color-scheme: dark) {
   .footer {
     background-color: #121212; } }
+
+section.hero {
+  height: 1250px; }
