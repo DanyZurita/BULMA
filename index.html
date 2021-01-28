@@ -8,30 +8,16 @@
     <title>PD2.1 BULMA</title>
     <link rel="icon" type="image/png" href="/img/favicon.ico">
     <link rel="stylesheet" href="css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 </head>
 
 <body>
+
     <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
 
-        <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item is-active">Home</a>
-
-                <a href="band.html" class="navbar-item">Band</a>
-
-                <a href="about.html" class="navbar-item"> About </a>
-            </div>
-        </div>
     </nav>
 
     <section class="hero is-medium has-carousel">
@@ -61,36 +47,15 @@
     </script>
 
     <footer class="footer">
-        <div class="content has-text-centered">
-            <a class="button is-small is-facebook is-outlined">
-                <span class="icon">
-        <em class="fab fa-facebook"></em>
-      </span>
-            </a>
-            <a class="button is-small is-pinterest is-outlined">
-                <span class="icon">
-        <em class="fab fa-pinterest"></em>
-      </span>
-            </a>
-            <a class="button is-small is-twitter is-outlined">
-                <span class="icon">
-        <em class="fab fa-twitter"></em>
-      </span>
-            </a>
-            <a class="button is-small is-flickr is-outlined">
-                <em class="fab fa-flickr"></em>
-                </span>
-            </a>
-            <a class="button is-small is-linkedin is-outlined">
-                <span class="icon">
-        <em class="fab fa-linkedin fa-lg"></em>
-      </span>
-            </a>
-        </div>
-        <div class="content has-text-centered">
-            <h5>Powered by BULMA</h5>
-        </div>
+
     </footer>
+
+    <script>
+        $(document).ready(function() {
+            $('nav').load('./utils/navbar.html');
+            $('footer').load('./utils/footer.html');
+        });
+    </script>
 
 
 </body>
