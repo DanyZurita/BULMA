@@ -30,3 +30,38 @@ $primary-invert: $pink-invert;
 section.hero {
     height: 100vh;
 }
+
+html {
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: $black;
+}
+
+.navbar a {
+    color: $white;
+}
+
+#section_group h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+
+#section_group :nth-child(2) {
+    color: $grey;
+    margin: 10px;
+    font-style: italic;
+}
+
+#section_group :nth-child(3) {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#section_images {
+    background-color: #f1f1f1;
+}
