@@ -12008,4 +12008,34 @@ label.panel-block {
     background-color: #121212; } }
 
 section.hero {
-  height: 1250px; }
+  height: 100vh; }
+
+html {
+  background-color: #ffffff; }
+
+.navbar {
+  background-color: #0a0a0a; }
+
+.navbar a {
+  color: white; }
+
+.section {
+  color: #0a0a0a; }
+
+#section_group h1 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 3em; }
+
+#section_group :nth-child(2) {
+  color: #7a7a7a;
+  margin: 10px;
+  font-style: italic; }
+
+#section_group :nth-child(3) {
+  margin-left: 30%;
+  margin-right: 30%; }
+
+#section_images {
+  background-color: #f1f1f1; }
